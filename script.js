@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.bar').slideDown('slow');
+	$('.bar').slideToggle('slow');
 	$('#x').click(function() {
 		$('.bar').hide();
 	});
